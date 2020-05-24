@@ -15,7 +15,7 @@ $ apt-get install pdfcrack
 If your system is not using APT package manager then install this tool using your package manager
    
 ### Start Cracking :
-Sysntax:
+Syntax:
 ```shell
 $ python3 script.py <filename.pdf>
 ```
