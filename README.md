@@ -7,7 +7,7 @@
 $ cd path/to/Pan-Card-Password-Cracker/
 $ pip3 install -r requirement.txt
 ```
-- Install required linux tool 
+- Install required linux tool. For Windows system no need to install any tool.
 ``` shell
 $ apt-get update
 $ apt-get install pdfcrack
