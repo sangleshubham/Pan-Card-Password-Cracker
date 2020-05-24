@@ -2,7 +2,7 @@
 ## Crack any Indian Pan Card Password in less than 1 Sec.
 
 ### Preparing For Hacking :
-- Install reqiured Python library
+- Install reqired Python library
 ```shell
 $ cd path/to/Pan-Card-Password-Cracker/
 $ pip3 install -r requirement.txt
