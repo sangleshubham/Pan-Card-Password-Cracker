@@ -9,8 +9,8 @@ $ pip3 install -r requirement.txt
 ```
 - Install required linux tool. For Windows system no need to install any tool.
 ``` shell
-$ apt-get update
-$ apt-get install pdfcrack
+$ sudo apt-get update
+$ sudo apt-get install pdfcrack
 ```
 If your system is not using APT package manager then install this tool using your package manager
    
