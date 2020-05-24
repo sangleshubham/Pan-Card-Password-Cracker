@@ -36,7 +36,7 @@ tic = time.time()
 if platform.system() == "Linux":  #Crack In Linux
     if subprocess.call(["pdfcrack",filename,"--wordlist="+ os.path.join(os.getcwd(),"wordlist")]) > 0:
         subprocess.call(["sudo","apt-get","install","pdfcrack","-y"])
-        output = subprocess.Popen(["pdfcrack",filename,"--wordlist="+ os.path.join(os.getcwd(),"wordlist")])
+    output = subprocess.Popen(["pdfcrack",filename,"--wordlist="+ os.path.join(os.getcwd(),"wordlist")])
 if platform.system() == "Windows": #Crack On Windows
     subprocess.call(["windows/pdfcrack.exe",filename,"--wordlist="+ os.path.join(os.getcwd(),"wordlist")])
 toc = time.time()
