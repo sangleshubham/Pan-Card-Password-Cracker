@@ -84,7 +84,7 @@ python3 script.py secret_pan_card.pdf
    - On **Linux**, it calls `pdfcrack` directly.  
    - On **Windows**, it calls `pdfcrack.exe` in the `windows/` directory.
 
-3. **Track Execution Time**  
+3. **Track Execution Time (~1 second)**  
    It measures how long the cracking attempt takes and prints the total duration.
 
 ---
